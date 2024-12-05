@@ -41,7 +41,7 @@ clean_age <- function(df, from_column, to_column) {
     ) |>
     mutate(
       "{ min_column }" := as.integer(!!sym(min_column)),
-      "{ max_column }" := as.integer(!!sym(max_column))
+      "{ max_column }" := as.integer(!!sym(max_column)) + 1L
     )
 }
 
