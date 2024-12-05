@@ -1,0 +1,26 @@
+Package: sia
+Title: Assess the need for Strategic Immunisation Activities (SIAs)
+Version: 0.0.0.9000
+Authors@R:
+    person(
+      "Sebastian", "Funk", , "sebastian.funk@lshtm.ac.uk",
+      role = c("aut", "cre"), comment = c(ORCID = "0000-0002-2842-3406")
+    )
+Description: Combines immunity profiles and contact matrices to work out \
+  contact-adjusted immunity and use this to assess the need for SIAs.
+License: MIT + file LICENSE
+Depends:
+    epimixr,
+    socialmixr,
+    dplyr,
+    tibble,
+    R (>= 2.10)
+Suggests:
+  here,
+  readr,
+  tidyr,
+  RefManageR
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+LazyData: true
